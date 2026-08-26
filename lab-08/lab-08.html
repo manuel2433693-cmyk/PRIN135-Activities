@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Checkout Page</title>
+</head>
+<body>
+  <h1>Checkout</h1>
+
+  <section>
+    <h2>Your Cart</h2>
+    <h3>Samsung Essential Monitor S3</h3>
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTj04cXShHg0SWC6aZtxbItluJi1NzqdC7YxVuDPlYDFw&s=10" alt="Samsung Essential Monitor S3" />
+  </section>
+
+  <section>
+    <h2>Payment Information</h2>
+    <form>
+      <label for="card-name">
+        Name on Card <span aria-hidden="true">*</span>
+      </label>
+      <input type="text" id="card-name" name="card-name" required />
+
+      <label for="card-number">
+        Card Number <span aria-hidden="true">*</span>
+      </label>
+      <input type="text" id="card-number" name="card-number" aria-describedby="card-number-help" required />
+      <p id="card-number-help">Enter a 16-digit card number without spaces or dashes.</p>
+    </form>
+  </section>
+</body>
+</html>
